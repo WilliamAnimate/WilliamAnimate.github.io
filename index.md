@@ -1,0 +1,1 @@
+<script>window.location.replace("https://WilliamAnimate.Github.io/Expermental-website/website/Thing.HTML");</script>
