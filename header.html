@@ -1,0 +1,369 @@
+<nav class="nav">
+    <div class="nav__elements">
+        <div class="nav__logo"> <span>W</span><span>i</span><span>l</span><span>l</span><span>i</span><span>a</span><span>m</span><span> </span><span>A</span><span>n</span><span>i</span><span>a</span><span>t</span><span></span><span>e</span></div>
+        <ul class="nav__groups">
+            <li class="nav__group"><a class="nav__group__link">Projects</a>
+                <ul class="nav__group__dropdown">
+                    <div class="multi-column">
+                        <ul class="product-list multi" data-type="table">
+                            <li class="product-list__title title"><a href='https://scratch.mit.edu/projects/380221903/'>Windows 10 in scratch</a></li>
+                            <li class="product-list__link"><a href='https://scratch.mit.edu/projects/393869523/'>Plague INC!</a></li>
+                        </ul>
+                        <ul class="product-list multi" data-type="chair">
+                            <li class="product-list__title title"><a>--</a></li>
+                            <li class="product-list__link"><a>--</a></li>
+                        </ul>
+                        <ul class="product-list multi" data-type="support">
+                            <li class="product-list__title title"><a>--</a></li>
+                            <li class="product-list__link"><a>--</a></li>
+                        </ul>
+                        <ul class="article-list">
+                            <li class="product-list__title title"><a>--</a></li>
+                            <li class="product-list__link"><a>--</a></li>
+                        </ul><img class="product-image" src="" data-match="table" /><img class="product-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-chair.jpg" data-match="chair" /><img class="product-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-support.jpg" data-match="support" />
+                    </div>
+                </ul>
+            </li>
+            <li class="nav__group"><a class="nav__group__link">Deco</a>
+                <ul class="nav__group__dropdown">
+                    <div class="multi-column">
+                        <ul class="product-list" data-type="floor">
+                            <li class="product-list__title title"><a>--</a></li>
+                            <li class="product-list__link"><a>--</a></li>
+                        </ul>
+                        <ul class="product-list" data-type="wall">
+                            <li class="product-list__title title"><a>--</a></li>
+                            <li class="product-list__link"><a>--</a></li>
+                        </ul>
+                        <ul class="product-list" data-type="window">
+                            <li class="product-list__title title"><a>--</a></li>
+                            <li class="product-list__link"><a>--</a></li>
+                        </ul>
+                        <ul class="product-list" data-type="cool">
+                            <li class="product-list__title title"><a>--</a></li>
+                            <li class="product-list__link"><a>--</a></li>
+                        </ul>
+                        <ul class="article-list">
+                            <li class="product-list__title title"><a>--</a></li>
+                            <li class="product-list__link"><a>--</a></li>
+                        </ul><img class="product-image" src="" /><img class="product-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-wall.jpg" data-match="wall" /><img class="product-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-window.jpg" data-match="window" /><img class="product-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-cool.jpg" data-match="cool" />
+                    </div>
+                </ul>
+            </li>
+            <li class="nav__group"><a class="nav__group__link">Work Friends</a>
+                <ul class="nav__group__dropdown">
+                    <div class="multi-column">
+                        <ul class="product-list" data-type="plant">
+                            <li class="product-list__title title"><a>--</a></li>
+                            <li class="product-list__link"><a>--</a></li>
+                        </ul>
+                        <ul class="product-list" data-type="buddy">
+                            <li class="product-list__title title"><a>--</a></li>
+                            <li class="product-list__link"><a>--</a></li>
+                        </ul>
+                        <ul class="product-list" data-type="items">
+                            <li class="product-list__title title"><a>--</a></li>
+                            <li class="product-list__link"><a>--</a></li>
+                        </ul>
+                        <ul class="product-list" data-type="pets">
+                            <li class="product-list__title title"><a>--</a></li>
+                            <li class="product-list__link"><a>--</a></li>
+                        </ul>
+                        <ul class="article-list">
+                            <li class="product-list__title title"><a>--</a></li>
+                            <li class="product-list__link"><a>--</a></li>
+                        </ul><img class="product-image" src="" data-match="plant"/><img class="product-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-buddy.jp" data-match="buddy" /><img class="product-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-items.jpg" data-match="items" /><img class="product-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-pets.jpg" data-match="pets" />
+                    </div>
+                </ul>
+            </li>
+        </ul>
+        <div class="nav__cart">CART</div>
+    </div>
+</nav>
+
+<style>
+
+body {
+  background: #f4f6f3;
+  font-family: 'Ibarra Real Nova', sans-serif;
+	line-height: 1.4;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	color: #767A7F;
+}
+
+@keyframes bounce {
+	0% { transform: translateY(0px)}
+	50% { transform: translateY(-6px)}
+}
+
+.nav {
+	background: #fff;
+	display: block;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 95%;
+	position: relative;
+	margin: 2rem auto;
+	font-size: 1.2rem;
+	box-shadow: -2px 4px 12px rgb(237, 237, 237);
+	background: #292F36;
+	max-width: 1400px;
+	a {
+		cursor: pointer;
+		padding: 1.5rem 2rem;
+		display: inline-block;
+	}
+	&__logo {
+		color: #B1B3B5;
+		font-size: 1.8rem;
+		align-self: center;
+		padding: .5rem 1.2rem .8rem;
+		cursor: pointer;
+		white-space: nowrap;
+		span {
+			display: inline-block;
+			transform: translateY(0);
+		}
+		&:hover {
+			span {
+				animation: .4s bounce ease-in-out;
+				&:nth-child(2) {
+					animation-delay: .1s;
+				}
+				&:nth-child(3) {
+					animation-delay: .2s;
+				}
+				&:nth-child(4) {
+					animation-delay: .3s;
+				}
+				&:nth-child(5) {
+					animation-delay: .4s;
+				}
+			}
+			&:before {
+				transform: translateY(0);
+				transition: .3s ease .5s;
+			}
+		} 
+		&:before {
+			content: "So You Work Remotely. Home office furniture and decoration items you can show off on Instagram.";
+			position: absolute;
+			top: 100%;
+			left: 0;
+			padding: 1.2rem;
+			background: #fff;
+			font-size: 1.1rem;
+			width: calc(100% - 2.4rem);
+			transform: translateY(-100%);
+			z-index: -1;
+			color: #292F36;
+		}
+	}
+	&__elements {
+		display: flex;
+	}
+	&__cart {
+		display: inline-block;
+		font: 700 1.1rem Oswald;
+	letter-spacing: .02rem;
+		text-transform: uppercase;
+		color: #f9f9f9;
+		padding: 1.2rem;
+		align-self: center;
+	}
+	&__groups {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+	&__group {
+		z-index: 2;
+		> a {
+			display: block;
+			font: 700 1.1rem Oswald;
+	letter-spacing: .02rem;
+			text-transform: uppercase;
+			color: #fff;
+		}
+		&:first-child > a {
+			padding-left: 6rem;
+		}
+		&:last-child > a {
+			padding-right: 6rem;
+		}
+		&__dropdown {
+			position: absolute;
+			top: 100%;
+			visibility: hidden;
+			display: none;
+			opacity: 0;
+			min-width: 450px;
+			left: 0;
+			padding: 1.5rem 2.5rem 2.5rem;
+			background: #fff;
+			transition: opacity 1.3s ease-in-out .3s, visibility 1s ease-out;
+			text-align: left;
+			width: 100%;
+		}
+	}
+}
+
+.product-list {
+	flex: 1;
+	min-width: 15rem;
+	padding-right: 1rem;
+	a {
+		padding: .5rem 0;
+		transition: .2s ease;
+		position: relative;
+		z-index: 2;
+		&:before {
+			content: '';
+			left: 0;
+			top: 85%;
+			width: 0;
+			transition: width .3s ease;
+			height: 3px;
+			position: absolute;
+			background: #292F36;
+		}
+		&:hover {
+			color: #292F36;
+			&:before {
+				width: 30px;
+			}
+		}
+	}
+	&__link {
+		padding-right: .5rem;
+	}
+	&__title {
+		width: 100%;
+	}
+	&.multi {
+		display: flex;
+		flex-wrap: wrap;
+		.product-list__link {
+			flex: 1 1 50%;
+		}
+	}
+}
+
+.title {
+	margin: 1.2rem 0 0.8rem;
+	text-transform: uppercase;
+	font: 700 1.1rem Oswald;
+	letter-spacing: .02rem;
+}
+
+.multi-column {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.article-list {
+	width: 100%;
+	padding-right: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 1.3rem;
+	&__title {
+		width: 100%;
+	}
+	&__link {
+		flex: 1;
+		min-width: 11rem;
+		margin-right: 2rem;
+		position: relative;
+		transition: transform .3s ease;
+		&:before {
+			content: '';
+			width: 3.5px;
+			height: 0;
+			background: #292F36;
+			transition: height .3s ease;
+			position: absolute;
+			top: .8rem;
+    	left: -.9rem;
+		}
+		&:hover {
+			transform: translateX(10px);
+			a {
+				color: #292F36;
+			}
+			&:before {
+				height: 30px;
+			}
+		}
+	}
+	a {
+		padding:  .4rem 0;
+	}
+}
+	
+	//hovering
+	
+.nav__group {
+	a:hover + .nav__group__dropdown,
+	.nav__group__dropdown:hover,
+	li:hover > .nav__group__dropdown {
+		display: block;
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+.product-image {
+	position: absolute;
+	max-width: 33%;
+	height: 250px;
+	object-fit: contain;
+	object-position: bottom right;
+	bottom: 0;
+	right: 0;
+	transition: 1.3s ease;
+	opacity: 0;
+	z-index: 1;
+	&[data-match="table"], &[data-match="floor"], &[data-match="plant"] {
+		opacity: 1;
+	}
+}
+
+.product-list {
+	&[data-type="chair"]:hover ~ .product-image[data-match="chair"] {
+		opacity: 1;
+	}
+	&[data-type="support"]:hover ~ .product-image[data-match="support"] {
+		opacity: 1;
+	}
+	&[data-type="chair"]:hover ~ .product-image[data-match="chair"] {
+		opacity: 1;
+	}
+	&[data-type="wall"]:hover ~ .product-image[data-match="wall"] {
+		opacity: 1;
+	}
+	&[data-type="window"]:hover ~ .product-image[data-match="window"] {
+		opacity: 1;
+	}
+	&[data-type="cool"]:hover ~ .product-image[data-match="cool"] {
+		opacity: 1;
+	}
+	&[data-type="buddy"]:hover ~ .product-image[data-match="buddy"] {
+		opacity: 1;
+	}
+	&[data-type="items"]:hover ~ .product-image[data-match="items"] {
+		opacity: 1;
+	}
+	&[data-type="pets"]:hover ~ .product-image[data-match="pets"] {
+		opacity: 1;
+	}
+}
+</style>
