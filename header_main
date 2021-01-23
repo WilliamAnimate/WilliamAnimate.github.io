@@ -1,200 +1,423 @@
-nav.nav
-	.nav__elements
-		.nav__logo 
-			span s
-			span y
-			span w
-			span r
-			span .
-		
-		ul.nav__groups
-			li.nav__group
-				a.nav__group__link Furniture
-				ul.nav__group__dropdown
-					.multi-column
-						ul.product-list.multi(data-type="table")
-							li.product-list__title.title To Work On
-							li.product-list__link
-								a Writing desks
-							li.product-list__link
-								a Hipster desks
-							li.product-list__link
-								a Corner desks
-							li.product-list__link
-								a Floating desks
-							li.product-list__link
-								a Executive desks
-							li.product-list__link
-								a Gaming desks
-							li.product-list__link
-								a Console tables
-							li.product-list__link
-								a Standing desks
-							li.product-list__link
-								a Laptop stands
-							li.product-list__link
-								a Accent tables
-						ul.product-list.multi(data-type="chair")
-							li.product-list__title.title To Sit On
-							li.product-list__link
-								a Ergonomic chairs
-							li.product-list__link
-								a Swivel chairs
-							li.product-list__link
-								a Armchairs
-							li.product-list__link
-								a Kneeling chairs
-							li.product-list__link
-								a Chaise lounges
-							li.product-list__link
-								a Fabric sofas
-							li.product-list__link
-								a Sofa beds
-							li.product-list__link
-								a Bouncing balls
-							li.product-list__link
-								a Beanbags
-						ul.product-list.multi(data-type="support")
-							li.product-list__title.title Physical (& Emotional) Support
-							li.product-list__link
-								a Footstools
-							li.product-list__link
-								a Ottomans
-							li.product-list__link
-								a Coffee tables
-							li.product-list__link
-								a Shelving Units
-							li.product-list__link
-								a Bookcases
-							li.product-list__link
-								a Pool tables
-							li.product-list__link
-								a Mini bars
-						ul.article-list
-							li.article-list__title.title For Your Inspiration
-							li.article-list__link
-								a Are You Really A Millenial If You't Shop At Ikea?
-							li.article-list__link
-								a The Latest Trend: Purchasing Tables from Hipster Cafes
-							li.article-list__link
-								a 15 Uncomfortable but Instagram-Worthy Chairs For Your Home Office
-						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-table.jpg" data-match="table")
-						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-chair.jpg" data-match="chair")
-						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-support.jpg" data-match="support")
-			li.nav__group
-				a.nav__group__link Deco
-				ul.nav__group__dropdown
-					.multi-column
-						ul.product-list(data-type="floor")
-							li.product-list__title.title Floor Covers
-							li.product-list__link
-								a Area rugs
-							li.product-list__link
-								a Door mats
-							li.product-list__link
-								a Hallway runners
-							li.product-list__link
-								a Fake grass
-						ul.product-list(data-type="wall")
-							li.product-list__title.title Wall Covers
-							li.product-list__link
-								a Wall art
-							li.product-list__link
-								a #basic quotes
-							li.product-list__link
-								a Nature wallpapers
-							li.product-list__link
-								a Memo boards
-							li.product-list__link
-								a Chalk boards
-						ul.product-list(data-type="window")
-							li.product-list__title.title Window Capes
-							li.product-list__link
-								a Curtains
-							li.product-list__link
-								a Tapestries
-							li.product-list__link
-								a Hanging flowers
-							li.product-list__link
-								a Herb gardens
-						ul.product-list(data-type="cool")
-							li.product-list__title.title It Just Looks Cool
-							li.product-list__link
-								a Teepees
-							li.product-list__link
-								a Faerie lights
-							li.product-list__link
-								a Easels
-							li.product-list__link
-								a Vintage bicycles
-						ul.article-list
-							li.article-list__title.title For Your Inspiration
-							li.article-list__link
-								a Do the Eat, Pray, Love: Fake Grass For Your Office
-							li.article-list__link
-								a Do You Really Work Better When You're Stepping On A White, Fluffy Rug?
-							li.article-list__link
-								a Yoga Mats: An Exercise Tool and An Office Rug? Win!
-						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-floor.jpg" data-match="floor")
-						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-wall.jpg" data-match="wall")
-						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-window.jpg" data-match="window")
-						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-cool.jpg" data-match="cool")
-							
-			li.nav__group
-				a.nav__group__link Work Friends
-				ul.nav__group__dropdown
-					.multi-column
-						ul.product-list(data-type="plant")
-							li.product-list__title.title Plants
-							li.product-list__link
-								a Succulents
-							li.product-list__link
-								a Large plants
-							li.product-list__link
-								a Lucky charm plants
-							li.product-list__link
-								a Solar-powered plants
-							li.product-list__link
-								a Crochet succulents
-							
-						ul.product-list(data-type="buddy")
-							li.product-list__title.title Buddies
-							li.product-list__link
-								a Giant plush toys
-							li.product-list__link
-								a Celebrity cutouts
-							li.product-list__link
-								a Mirrors
-						ul.product-list(data-type="items")
-							li.product-list__title.title For The Table
-							li.product-list__link
-								a Origami
-							li.product-list__link
-								a Figurines
-							li.product-list__link
-								a Candles
-							li.product-list__link
-								a Pixar lamps
-						ul.product-list(data-type="pets")
-							li.product-list__title.title For The Pets
-							li.product-list__link
-								a Pet beds
-							li.product-list__link
-								a Pet houses
-							li.product-list__link
-								a Cat trees & condos
-							li.product-list__link
-								a Bunny hutches
-						ul.article-list
-							li.article-list__title.title For Your Inspiration
-							li.article-list__link
-								a Why Pets Make The Best Colleagues Ever! (They Don't Talk, That's Why)
-							li.article-list__link
-								a Your Succulent Plants Die Too Easily? Try Crochet Plants Instead
-							li.article-list__link
-								a [Quiz] Which Eeveevolution Is Your Work Soulmate?
-						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-plant.jpg" data-match="plant")
-						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-buddy.jpg" data-match="buddy")
-						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-items.jpg" data-match="items")
-						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-pets.jpg" data-match="pets")
-		.nav__cart CART
+<nav class="nav">
+    <div class="nav__elements">
+        <div class="nav__logo"> <span>s</span><span>y</span><span>w</span><span>r</span><span>.</span></div>
+        <ul class="nav__groups">
+            <li class="nav__group"><a class="nav__group__link">Furniture</a>
+                <ul class="nav__group__dropdown">
+                    <div class="multi-column">
+                        <ul class="product-list multi" data-type="table">
+                            <li class="product-list__title title">To Work On</li>
+                            <li class="product-list__link"><a>Writing desks</a></li>
+                            <li class="product-list__link"><a>Hipster desks</a></li>
+                            <li class="product-list__link"><a>Corner desks</a></li>
+                            <li class="product-list__link"><a>Floating desks</a></li>
+                            <li class="product-list__link"><a>Executive desks</a></li>
+                            <li class="product-list__link"><a>Gaming desks</a></li>
+                            <li class="product-list__link"><a>Console tables</a></li>
+                            <li class="product-list__link"><a>Standing desks</a></li>
+                            <li class="product-list__link"><a>Laptop stands</a></li>
+                            <li class="product-list__link"><a>Accent tables</a></li>
+                        </ul>
+                        <ul class="product-list multi" data-type="chair">
+                            <li class="product-list__title title">To Sit On</li>
+                            <li class="product-list__link"><a>Ergonomic chairs</a></li>
+                            <li class="product-list__link"><a>Swivel chairs</a></li>
+                            <li class="product-list__link"><a>Armchairs</a></li>
+                            <li class="product-list__link"><a>Kneeling chairs</a></li>
+                            <li class="product-list__link"><a>Chaise lounges</a></li>
+                            <li class="product-list__link"><a>Fabric sofas</a></li>
+                            <li class="product-list__link"><a>Sofa beds</a></li>
+                            <li class="product-list__link"><a>Bouncing balls</a></li>
+                            <li class="product-list__link"><a>Beanbags</a></li>
+                        </ul>
+                        <ul class="product-list multi" data-type="support">
+                            <li class="product-list__title title">Physical (& Emotional) Support</li>
+                            <li class="product-list__link"><a>Footstools</a></li>
+                            <li class="product-list__link"><a>Ottomans</a></li>
+                            <li class="product-list__link"><a>Coffee tables</a></li>
+                            <li class="product-list__link"><a>Shelving Units</a></li>
+                            <li class="product-list__link"><a>Bookcases</a></li>
+                            <li class="product-list__link"><a>Pool tables</a></li>
+                            <li class="product-list__link"><a>Mini bars</a></li>
+                        </ul>
+                        <ul class="article-list">
+                            <li class="article-list__title title">For Your Inspiration</li>
+                            <li class="article-list__link"><a>Are You Really A Millenial If You't Shop At Ikea?</a></li>
+                            <li class="article-list__link"><a>The Latest Trend: Purchasing Tables from Hipster Cafes</a></li>
+                            <li class="article-list__link"><a>15 Uncomfortable but Instagram-Worthy Chairs For Your Home Office</a></li>
+                        </ul><img class="product-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-table.jpg" data-match="table" /><img class="product-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-chair.jpg" data-match="chair" /><img class="product-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-support.jpg" data-match="support" />
+                    </div>
+                </ul>
+            </li>
+            <li class="nav__group"><a class="nav__group__link">Deco</a>
+                <ul class="nav__group__dropdown">
+                    <div class="multi-column">
+                        <ul class="product-list" data-type="floor">
+                            <li class="product-list__title title">Floor Covers</li>
+                            <li class="product-list__link"><a>Area rugs</a></li>
+                            <li class="product-list__link"><a>Door mats</a></li>
+                            <li class="product-list__link"><a>Hallway runners</a></li>
+                            <li class="product-list__link"><a>Fake grass</a></li>
+                        </ul>
+                        <ul class="product-list" data-type="wall">
+                            <li class="product-list__title title">Wall Covers</li>
+                            <li class="product-list__link"><a>Wall art</a></li>
+                            <li class="product-list__link"><a>#basic quotes</a></li>
+                            <li class="product-list__link"><a>Nature wallpapers</a></li>
+                            <li class="product-list__link"><a>Memo boards</a></li>
+                            <li class="product-list__link"><a>Chalk boards</a></li>
+                        </ul>
+                        <ul class="product-list" data-type="window">
+                            <li class="product-list__title title">Window Capes</li>
+                            <li class="product-list__link"><a>Curtains</a></li>
+                            <li class="product-list__link"><a>Tapestries</a></li>
+                            <li class="product-list__link"><a>Hanging flowers</a></li>
+                            <li class="product-list__link"><a>Herb gardens</a></li>
+                        </ul>
+                        <ul class="product-list" data-type="cool">
+                            <li class="product-list__title title">It Just Looks Cool</li>
+                            <li class="product-list__link"><a>Teepees</a></li>
+                            <li class="product-list__link"><a>Faerie lights</a></li>
+                            <li class="product-list__link"><a>Easels</a></li>
+                            <li class="product-list__link"><a>Vintage bicycles</a></li>
+                        </ul>
+                        <ul class="article-list">
+                            <li class="article-list__title title">For Your Inspiration</li>
+                            <li class="article-list__link"><a>Do the Eat, Pray, Love: Fake Grass For Your Office</a></li>
+                            <li class="article-list__link"><a>Do You Really Work Better When You're Stepping On A White, Fluffy Rug?</a></li>
+                            <li class="article-list__link"><a>Yoga Mats: An Exercise Tool and An Office Rug? Win!</a></li>
+                        </ul><img class="product-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-floor.jpg" data-match="floor" /><img class="product-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-wall.jpg" data-match="wall" /><img class="product-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-window.jpg" data-match="window" /><img class="product-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-cool.jpg" data-match="cool" />
+                    </div>
+                </ul>
+            </li>
+            <li class="nav__group"><a class="nav__group__link">Work Friends</a>
+                <ul class="nav__group__dropdown">
+                    <div class="multi-column">
+                        <ul class="product-list" data-type="plant">
+                            <li class="product-list__title title">Plants</li>
+                            <li class="product-list__link"><a>Succulents</a></li>
+                            <li class="product-list__link"><a>Large plants</a></li>
+                            <li class="product-list__link"><a>Lucky charm plants</a></li>
+                            <li class="product-list__link"><a>Solar-powered plants</a></li>
+                            <li class="product-list__link"><a>Crochet succulents</a></li>
+                        </ul>
+                        <ul class="product-list" data-type="buddy">
+                            <li class="product-list__title title">Buddies</li>
+                            <li class="product-list__link"><a>Giant plush toys</a></li>
+                            <li class="product-list__link"><a>Celebrity cutouts</a></li>
+                            <li class="product-list__link"><a>Mirrors</a></li>
+                        </ul>
+                        <ul class="product-list" data-type="items">
+                            <li class="product-list__title title">For The Table</li>
+                            <li class="product-list__link"><a>Origami</a></li>
+                            <li class="product-list__link"><a>Figurines</a></li>
+                            <li class="product-list__link"><a>Candles</a></li>
+                            <li class="product-list__link"><a>Pixar lamps</a></li>
+                        </ul>
+                        <ul class="product-list" data-type="pets">
+                            <li class="product-list__title title">For The Pets</li>
+                            <li class="product-list__link"><a>Pet beds</a></li>
+                            <li class="product-list__link"><a>Pet houses</a></li>
+                            <li class="product-list__link"><a>Cat trees & condos</a></li>
+                            <li class="product-list__link"><a>Bunny hutches</a></li>
+                        </ul>
+                        <ul class="article-list">
+                            <li class="article-list__title title">For Your Inspiration</li>
+                            <li class="article-list__link"><a>Why Pets Make The Best Colleagues Ever! (They Don't Talk, That's Why)</a></li>
+                            <li class="article-list__link"><a>Your Succulent Plants Die Too Easily? Try Crochet Plants Instead</a></li>
+                            <li class="article-list__link"><a>[Quiz] Which Eeveevolution Is Your Work Soulmate?</a></li>
+                        </ul><img class="product-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-plant.jpg" data-match="plant" /><img class="product-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-buddy.jpg" data-match="buddy" /><img class="product-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-items.jpg" data-match="items" /><img class="product-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-pets.jpg" data-match="pets" />
+                    </div>
+                </ul>
+            </li>
+        </ul>
+        <div class="nav__cart">CART</div>
+    </div>
+</nav>
+
+<style>
+
+body {
+  background: #f4f6f3;
+  font-family: 'Ibarra Real Nova', sans-serif;
+	line-height: 1.4;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	color: #767A7F;
+}
+
+@keyframes bounce {
+	0% { transform: translateY(0px)}
+	50% { transform: translateY(-6px)}
+}
+
+.nav {
+	background: #fff;
+	display: block;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 95%;
+	position: relative;
+	margin: 2rem auto;
+	font-size: 1.2rem;
+	box-shadow: -2px 4px 12px rgb(237, 237, 237);
+	background: #292F36;
+	max-width: 1400px;
+	a {
+		cursor: pointer;
+		padding: 1.5rem 2rem;
+		display: inline-block;
+	}
+	&__logo {
+		color: #B1B3B5;
+		font-size: 1.8rem;
+		align-self: center;
+		padding: .5rem 1.2rem .8rem;
+		cursor: pointer;
+		white-space: nowrap;
+		span {
+			display: inline-block;
+			transform: translateY(0);
+		}
+		&:hover {
+			span {
+				animation: .4s bounce ease-in-out;
+				&:nth-child(2) {
+					animation-delay: .1s;
+				}
+				&:nth-child(3) {
+					animation-delay: .2s;
+				}
+				&:nth-child(4) {
+					animation-delay: .3s;
+				}
+				&:nth-child(5) {
+					animation-delay: .4s;
+				}
+			}
+			&:before {
+				transform: translateY(0);
+				transition: .3s ease .5s;
+			}
+		} 
+		&:before {
+			content: "So You Work Remotely. Home office furniture and decoration items you can show off on Instagram.";
+			position: absolute;
+			top: 100%;
+			left: 0;
+			padding: 1.2rem;
+			background: #fff;
+			font-size: 1.1rem;
+			width: calc(100% - 2.4rem);
+			transform: translateY(-100%);
+			z-index: -1;
+			color: #292F36;
+		}
+	}
+	&__elements {
+		display: flex;
+	}
+	&__cart {
+		display: inline-block;
+		font: 700 1.1rem Oswald;
+	letter-spacing: .02rem;
+		text-transform: uppercase;
+		color: #f9f9f9;
+		padding: 1.2rem;
+		align-self: center;
+	}
+	&__groups {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+	&__group {
+		z-index: 2;
+		> a {
+			display: block;
+			font: 700 1.1rem Oswald;
+	letter-spacing: .02rem;
+			text-transform: uppercase;
+			color: #fff;
+		}
+		&:first-child > a {
+			padding-left: 6rem;
+		}
+		&:last-child > a {
+			padding-right: 6rem;
+		}
+		&__dropdown {
+			position: absolute;
+			top: 100%;
+			visibility: hidden;
+			display: none;
+			opacity: 0;
+			min-width: 450px;
+			left: 0;
+			padding: 1.5rem 2.5rem 2.5rem;
+			background: #fff;
+			transition: opacity 1.3s ease-in-out .3s, visibility 1s ease-out;
+			text-align: left;
+			width: 100%;
+		}
+	}
+}
+
+.product-list {
+	flex: 1;
+	min-width: 15rem;
+	padding-right: 1rem;
+	a {
+		padding: .5rem 0;
+		transition: .2s ease;
+		position: relative;
+		z-index: 2;
+		&:before {
+			content: '';
+			left: 0;
+			top: 85%;
+			width: 0;
+			transition: width .3s ease;
+			height: 3px;
+			position: absolute;
+			background: #292F36;
+		}
+		&:hover {
+			color: #292F36;
+			&:before {
+				width: 30px;
+			}
+		}
+	}
+	&__link {
+		padding-right: .5rem;
+	}
+	&__title {
+		width: 100%;
+	}
+	&.multi {
+		display: flex;
+		flex-wrap: wrap;
+		.product-list__link {
+			flex: 1 1 50%;
+		}
+	}
+}
+
+.title {
+	margin: 1.2rem 0 0.8rem;
+	text-transform: uppercase;
+	font: 700 1.1rem Oswald;
+	letter-spacing: .02rem;
+}
+
+.multi-column {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.article-list {
+	width: 100%;
+	padding-right: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 1.3rem;
+	&__title {
+		width: 100%;
+	}
+	&__link {
+		flex: 1;
+		min-width: 11rem;
+		margin-right: 2rem;
+		position: relative;
+		transition: transform .3s ease;
+		&:before {
+			content: '';
+			width: 3.5px;
+			height: 0;
+			background: #292F36;
+			transition: height .3s ease;
+			position: absolute;
+			top: .8rem;
+    	left: -.9rem;
+		}
+		&:hover {
+			transform: translateX(10px);
+			a {
+				color: #292F36;
+			}
+			&:before {
+				height: 30px;
+			}
+		}
+	}
+	a {
+		padding:  .4rem 0;
+	}
+}
+	
+	//hovering
+	
+.nav__group {
+	a:hover + .nav__group__dropdown,
+	.nav__group__dropdown:hover,
+	li:hover > .nav__group__dropdown {
+		display: block;
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+.product-image {
+	position: absolute;
+	max-width: 33%;
+	height: 250px;
+	object-fit: contain;
+	object-position: bottom right;
+	bottom: 0;
+	right: 0;
+	transition: 1.3s ease;
+	opacity: 0;
+	z-index: 1;
+	&[data-match="table"], &[data-match="floor"], &[data-match="plant"] {
+		opacity: 1;
+	}
+}
+
+.product-list {
+	&[data-type="chair"]:hover ~ .product-image[data-match="chair"] {
+		opacity: 1;
+	}
+	&[data-type="support"]:hover ~ .product-image[data-match="support"] {
+		opacity: 1;
+	}
+	&[data-type="chair"]:hover ~ .product-image[data-match="chair"] {
+		opacity: 1;
+	}
+	&[data-type="wall"]:hover ~ .product-image[data-match="wall"] {
+		opacity: 1;
+	}
+	&[data-type="window"]:hover ~ .product-image[data-match="window"] {
+		opacity: 1;
+	}
+	&[data-type="cool"]:hover ~ .product-image[data-match="cool"] {
+		opacity: 1;
+	}
+	&[data-type="buddy"]:hover ~ .product-image[data-match="buddy"] {
+		opacity: 1;
+	}
+	&[data-type="items"]:hover ~ .product-image[data-match="items"] {
+		opacity: 1;
+	}
+	&[data-type="pets"]:hover ~ .product-image[data-match="pets"] {
+		opacity: 1;
+	}
+}
+</style>
