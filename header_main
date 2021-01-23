@@ -1,0 +1,200 @@
+nav.nav
+	.nav__elements
+		.nav__logo 
+			span s
+			span y
+			span w
+			span r
+			span .
+		
+		ul.nav__groups
+			li.nav__group
+				a.nav__group__link Furniture
+				ul.nav__group__dropdown
+					.multi-column
+						ul.product-list.multi(data-type="table")
+							li.product-list__title.title To Work On
+							li.product-list__link
+								a Writing desks
+							li.product-list__link
+								a Hipster desks
+							li.product-list__link
+								a Corner desks
+							li.product-list__link
+								a Floating desks
+							li.product-list__link
+								a Executive desks
+							li.product-list__link
+								a Gaming desks
+							li.product-list__link
+								a Console tables
+							li.product-list__link
+								a Standing desks
+							li.product-list__link
+								a Laptop stands
+							li.product-list__link
+								a Accent tables
+						ul.product-list.multi(data-type="chair")
+							li.product-list__title.title To Sit On
+							li.product-list__link
+								a Ergonomic chairs
+							li.product-list__link
+								a Swivel chairs
+							li.product-list__link
+								a Armchairs
+							li.product-list__link
+								a Kneeling chairs
+							li.product-list__link
+								a Chaise lounges
+							li.product-list__link
+								a Fabric sofas
+							li.product-list__link
+								a Sofa beds
+							li.product-list__link
+								a Bouncing balls
+							li.product-list__link
+								a Beanbags
+						ul.product-list.multi(data-type="support")
+							li.product-list__title.title Physical (& Emotional) Support
+							li.product-list__link
+								a Footstools
+							li.product-list__link
+								a Ottomans
+							li.product-list__link
+								a Coffee tables
+							li.product-list__link
+								a Shelving Units
+							li.product-list__link
+								a Bookcases
+							li.product-list__link
+								a Pool tables
+							li.product-list__link
+								a Mini bars
+						ul.article-list
+							li.article-list__title.title For Your Inspiration
+							li.article-list__link
+								a Are You Really A Millenial If You't Shop At Ikea?
+							li.article-list__link
+								a The Latest Trend: Purchasing Tables from Hipster Cafes
+							li.article-list__link
+								a 15 Uncomfortable but Instagram-Worthy Chairs For Your Home Office
+						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-table.jpg" data-match="table")
+						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-chair.jpg" data-match="chair")
+						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-support.jpg" data-match="support")
+			li.nav__group
+				a.nav__group__link Deco
+				ul.nav__group__dropdown
+					.multi-column
+						ul.product-list(data-type="floor")
+							li.product-list__title.title Floor Covers
+							li.product-list__link
+								a Area rugs
+							li.product-list__link
+								a Door mats
+							li.product-list__link
+								a Hallway runners
+							li.product-list__link
+								a Fake grass
+						ul.product-list(data-type="wall")
+							li.product-list__title.title Wall Covers
+							li.product-list__link
+								a Wall art
+							li.product-list__link
+								a #basic quotes
+							li.product-list__link
+								a Nature wallpapers
+							li.product-list__link
+								a Memo boards
+							li.product-list__link
+								a Chalk boards
+						ul.product-list(data-type="window")
+							li.product-list__title.title Window Capes
+							li.product-list__link
+								a Curtains
+							li.product-list__link
+								a Tapestries
+							li.product-list__link
+								a Hanging flowers
+							li.product-list__link
+								a Herb gardens
+						ul.product-list(data-type="cool")
+							li.product-list__title.title It Just Looks Cool
+							li.product-list__link
+								a Teepees
+							li.product-list__link
+								a Faerie lights
+							li.product-list__link
+								a Easels
+							li.product-list__link
+								a Vintage bicycles
+						ul.article-list
+							li.article-list__title.title For Your Inspiration
+							li.article-list__link
+								a Do the Eat, Pray, Love: Fake Grass For Your Office
+							li.article-list__link
+								a Do You Really Work Better When You're Stepping On A White, Fluffy Rug?
+							li.article-list__link
+								a Yoga Mats: An Exercise Tool and An Office Rug? Win!
+						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-floor.jpg" data-match="floor")
+						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-wall.jpg" data-match="wall")
+						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-window.jpg" data-match="window")
+						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-cool.jpg" data-match="cool")
+							
+			li.nav__group
+				a.nav__group__link Work Friends
+				ul.nav__group__dropdown
+					.multi-column
+						ul.product-list(data-type="plant")
+							li.product-list__title.title Plants
+							li.product-list__link
+								a Succulents
+							li.product-list__link
+								a Large plants
+							li.product-list__link
+								a Lucky charm plants
+							li.product-list__link
+								a Solar-powered plants
+							li.product-list__link
+								a Crochet succulents
+							
+						ul.product-list(data-type="buddy")
+							li.product-list__title.title Buddies
+							li.product-list__link
+								a Giant plush toys
+							li.product-list__link
+								a Celebrity cutouts
+							li.product-list__link
+								a Mirrors
+						ul.product-list(data-type="items")
+							li.product-list__title.title For The Table
+							li.product-list__link
+								a Origami
+							li.product-list__link
+								a Figurines
+							li.product-list__link
+								a Candles
+							li.product-list__link
+								a Pixar lamps
+						ul.product-list(data-type="pets")
+							li.product-list__title.title For The Pets
+							li.product-list__link
+								a Pet beds
+							li.product-list__link
+								a Pet houses
+							li.product-list__link
+								a Cat trees & condos
+							li.product-list__link
+								a Bunny hutches
+						ul.article-list
+							li.article-list__title.title For Your Inspiration
+							li.article-list__link
+								a Why Pets Make The Best Colleagues Ever! (They Don't Talk, That's Why)
+							li.article-list__link
+								a Your Succulent Plants Die Too Easily? Try Crochet Plants Instead
+							li.article-list__link
+								a [Quiz] Which Eeveevolution Is Your Work Soulmate?
+						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-plant.jpg" data-match="plant")
+						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-buddy.jpg" data-match="buddy")
+						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-items.jpg" data-match="items")
+						img.product-image(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/nav-pets.jpg" data-match="pets")
+		.nav__cart CART
