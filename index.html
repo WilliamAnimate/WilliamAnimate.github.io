@@ -1,5 +1,40 @@
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <main class="site-wrapper">
+	
+	
+	
+	<html>
+<head>
+  <meta name="google-signin-client_id" content="268182291199-0n6nagqm4gtq9mem0bk47ip1b47lkuvk.apps.googleusercontent.com">
+</head>
+<body>
+  <div id="my-signin2"></div>
+  <script>
+    function onSuccess(googleUser) {
+      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+    }
+    function onFailure(error) {
+      console.log(error);
+    }
+    function renderButton() {
+      gapi.signin2.render('my-signin2', {
+        'scope': 'profile email',
+        'width': 240,
+        'height': 50,
+        'longtitle': true,
+        'theme': 'dark',
+        'onsuccess': onSuccess,
+        'onfailure': onFailure
+      });
+    }
+  </script>
+
+  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+</body>
+</html>
+	
+	
+	
   <div class="pt-table desktop-768">
     <div class="pt-tablecell page-home relative" style="background-image: url();
     background-position: center;
