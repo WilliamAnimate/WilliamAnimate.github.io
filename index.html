@@ -10,7 +10,6 @@
 <body>
   <div id="my-signin2"></div>
   <script>
-    gapi.auth2.init()
     function onSuccess(googleUser) {
       console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
     }
