@@ -53,9 +53,9 @@
       left: 7px;
       position: absolute;
       top: 5px;
-      transform: matrix(0.832622, -0.553842, 0.553842, 0.832622, 0, 0);
-      transform-style: preserve-3d;
       width: 70px;
+      transform: rotateZ(0deg);
+      transform-style: preserve-3d;
     }
     .gwd-p-1whf {
       color: rgb(255, 255, 255);
@@ -89,6 +89,19 @@
       left: 265px;
       width: 68%;
     }
+    @keyframes gwd-gen-1vh7gwdanimation_gwd-keyframes {
+      0% {
+        transform: rotateZ(0deg);
+        animation-timing-function: linear;
+      }
+      100% {
+        transform: rotateZ(720deg);
+        animation-timing-function: linear;
+      }
+    }
+    .gwd-div-1ytp .gwd-gen-1vh7gwdanimation {
+      animation: 1s linear 0s 1 normal forwards running gwd-gen-1vh7gwdanimation_gwd-keyframes;
+    }
   </style>
   <link href="https://fonts.googleapis.com/css?family=Teko:300,regular,500,600,700" rel="stylesheet" type="text/css">
 </head>
@@ -96,7 +109,7 @@
 <body class="htmlNoPages">
   <div class="gwd-div-18ml"></div>
   <div class="gwd-div-1ytp">
-    <img src="assets/download.png" id="download" class="gwd-img-1xub">
+    <img src="assets/download.png" id="download" class="gwd-img-1xub gwd-gen-1vh7gwdanimation">
     <p class="gwd-p-1whf">William_Animate<br>
       
     </p><span class="gwd-span-17er">Where Code Comes To Life</span></div>
