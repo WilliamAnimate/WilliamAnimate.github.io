@@ -1,50 +1,54 @@
-.htmlNoPages .gwd-motion-path-s09m-anim-x {
+.htmlNoPages .gwd-motion-path-xv1m-anim-x {
   --gwd-motion-path: {
     "tangentFollowing":false, "sections":[ {
-      "controlPoints": ["0px", "0px", "-167.71px", "-118.45px", "186.13px", "-254.72px", "0px", "-332px"], "startTimeMs": 0, "endTimeMs": 800, "easing": "linear"
+      "controlPoints": ["0px", "-332px", "-18.18px", "-345.61px", "28.64px", "-299.47px", "0px", "-332px"], "startTimeMs": 0, "endTimeMs": 800, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "-332px", "0px", "-332px", "0px", "-332px", "0px", "-332px"], "startTimeMs": 800, "endTimeMs": 1300, "easing": "linear"
     }
     ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
   }
   ;
-  animation: 0.8s linear 0s 1 normal forwards running gwd-motion-path-s09m-keys-x;
+  animation: 1.3s linear 0s 1 normal forwards running gwd-motion-path-xv1m-keys-x;
   transform: translate3d(0px, 0px, 0px);
 }
-@keyframes gwd-motion-path-s09m-keys-x {
+@keyframes gwd-motion-path-xv1m-keys-x {
   0% {
     transform: translate3d(0px, 0px, 0px);
-    animation-timing-function: cubic-bezier(0.4097, -146.458, 0.5355, -113.296);
   }
-  50% {
-    transform: translate3d(0.48px, 0px, 0px);
-    animation-timing-function: cubic-bezier(0.2905, 0.3124, 0.5973, 0.844);
+  4.62% {
+    transform: translate3d(-2.48px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.0671, -0.5832, 0.8632, 0.9074);
   }
-  77.5% {
-    transform: translate3d(55.49px, 0px, 0px);
-    animation-timing-function: cubic-bezier(0.4245, -0.0661, 0.789, 0.7229);
+  35.38% {
+    transform: translate3d(7.9px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.0724, -0.653, 0.8372, 0.9006);
   }
-  97.5% {
-    transform: translate3d(9.26px, 0px, 0px);
+  61.54% {
+    transform: translate3d(0px, 0px, 0px);
   }
   100% {
     transform: translate3d(0px, 0px, 0px);
   }
 }
-.htmlNoPages .gwd-motion-path-s09m-anim-y {
-  animation: 0.8s linear 0s 1 normal forwards running gwd-motion-path-s09m-keys-y;
-  transform: translate3d(0px, 0px, 0px);
+.htmlNoPages .gwd-motion-path-xv1m-anim-y {
+  animation: 1.3s linear 0s 1 normal forwards running gwd-motion-path-xv1m-keys-y;
+  transform: translate3d(0px, -332px, 0px);
 }
-@keyframes gwd-motion-path-s09m-keys-y {
+@keyframes gwd-motion-path-xv1m-keys-y {
   0% {
-    transform: translate3d(0px, 0px, 0px);
-    animation-timing-function: cubic-bezier(0.4004, 0.2603, 0.6513, 0.6794);
+    transform: translate3d(0px, -332px, 0px);
+    animation-timing-function: cubic-bezier(0.3502, -1.0208, 0.6444, 0.6302);
   }
-  40% {
-    transform: translate3d(0px, -139.75px, 0px);
-    animation-timing-function: cubic-bezier(0.3364, 0.3316, 0.7001, 0.6339);
+  26.15% {
+    transform: translate3d(0px, -325.35px, 0px);
+    animation-timing-function: cubic-bezier(0.6201, -3.435, 0.4909, -0.7214);
   }
-  80% {
-    transform: translate3d(0px, -278.38px, 0px);
-    animation-timing-function: cubic-bezier(0.2612, 0.4106, 0.5702, 0.7602);
+  53.85% {
+    transform: translate3d(0px, -328.18px, 0px);
+  }
+  61.54% {
+    transform: translate3d(0px, -332px, 0px);
   }
   100% {
     transform: translate3d(0px, -332px, 0px);
