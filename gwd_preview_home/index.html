@@ -41,18 +41,28 @@ body {
     top: 0px;
     width: 100%;
     height: 80px;
+}
+.gwd-div-yqx5 {
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    top: 832px;
+    height: 332px;
+    transform: translate3d(0px, -332px, 0px);
+    -webkit-transform: translate3d(0px, -332px, 0px);
+    -moz-transform: translate3d(0px, -332px, 0px);
 }</style>
   <script>
-    $(document).ready(function(){
-    $("#headerloader").load("./header.html");
-    $("#footerloader").load("./footer.html");
-      });
+    $(document).ready(function() {
+      $("#headerloader").load("./header.html");
+      $("#footerloader").load("./footer.html");
+    });
   </script>
 <style type="text/css">#pagedeck { overflow: hidden !important; }</style></head>
 
 <body class="htmlNoPages">
-  <div id="headerloader"></div>
+  <div id="headerloader" class="gwd-div-1by3"></div>
+  <div id="footerloader" class="gwd-div-1by3 gwd-div-yqx5"></div>
 
 
-  <div id="footerloader"></div>
 </body></html>
