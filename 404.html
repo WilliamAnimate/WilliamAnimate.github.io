@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<br>
+<html>
+<head>
+<style>
+@keyframes bg {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}}
+body {
+    background: linear-gradient(69deg, #000000, #333333, #a1a590, #005eff, #696969, #420420);
+    background-size: 400% 400%;
+    animation: bg 30s ease infinite;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    user-select: none;
+}
+</style>
+  
+  <body>
+  <h1 style="text-align: center;"><span><em><span><strong>404</strong></span></em></span></h1>
+  <h2 style="text-align: center;"><i>cant load random text :(  how about you get some pancakes with niko?</i></h2>
+  <h3>--todo: put return link here lol</h3>
+  <script>
+    // code in this <script> tag was originally written by Ryan Hinchliffe, from https://stackoverflow.com/questions/62809591/how-to-pick-random-words-in-html)
+    let theList = ["Oops! This page seems to be missing.", "We can't seem to find the page you're looking for.", "Looks like you've hit a dead end.", "The page you requested is not available.", "This is not the page you are looking for.", "Sorry, we couldn't find what you were looking for.", "Looks like you took a wrong turn.", "The page may have been moved or deleted.", "This page has gone missing, just like your socks in the dryer.", "--- todo: add more 404 messages before we ship this file to the outside world"]
+    let theListLength;
+    let theAnswer;
+    function randomWordPicker(aList){
+        theListLength = theList.length/10
+        theAnswer = Math.floor((Math.random()*10)*theListLength)
+        return aList[theAnswer]
+    }
+    let result = randomWordPicker(theList)
+    document.querySelector("h2 i").innerHTML = result
+    </script>
+  <p>&nbsp;</p>
+  <p><span>404 page, as usual</span></p>
+  <h3><span style="text-decoration: underline;">Did you know:&nbsp;</span></h3>
+  <h4>this didnt load :(  dont tell neko that you like waffles lol</h4>
+  <script>
+    theList = ["i miss neko", "i only had one shot", "wait why am i writing all these messages about oneshot again?", "--- todo: add more oneshot stuff here"]
+    r = randomWordPicker(theList)
+    document.querySelector("h4").innerHTML = r
+  </script>
+  <br>
+  <br>
+  <br>
+  <p>i swear if you see a seperate line thing in the gradient there i will be so angry</p>
+  </body>
+</head>
+</html>
+  
