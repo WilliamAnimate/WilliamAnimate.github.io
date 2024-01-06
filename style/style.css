@@ -6,18 +6,28 @@ body {
 	font-family: lexend;
 }
 
-#main {
-	position: fixed;
-	left: 50%;
-	top: -20%;
+#mainco {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh; /* Ensure the body takes up the full height of the viewport */
+	margin: 0; /* Remove default margin */
+}
 
-	width: 600px;
+#main {
+	/* position: fixed;
+	left: 50%;
+	top: 10%;
+	transform: translate(-50%); */
+
+	width: 50vw;
 	height: 500px;
 	background-color: #1b1b1b;
-	transform: translate(-50%, 50%);
 	text-align: center;
 	padding: 50px;
 }
+
+#about {padding: 10px} /* TODO: this is how you make bad css */
 
 #pfp {
 	border-radius: 100ex;
@@ -42,3 +52,7 @@ body {
 }
 
 .btn:hover {background-color: #fff; color: #000}
+
+@media screen and (max-width: 558px) {
+	h1 {font-size: 1.5em;}
+}
