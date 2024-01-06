@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", redirectAddEventlisteners);
+if (window.location.hash.substring(1) != "force_disable_redirect") redirectAddEventlisteners();
 
 /**
  * adds eventlisteners to the anchor element. when clicked, this will trigger the redirect animation.
@@ -9,10 +9,7 @@ function redirectAddEventlisteners() {
 		e.preventDefault();
 
 		const href = this.getAttribute("href");
-		if (window.location.hash.substring(1) != "force_disable_redirect")
-			redirectLoadContent(href);
-		else
-			window.location = `${href}#force_disable_redirect`;
+		redirectLoadContent(href);
 	});
 }
 
@@ -34,7 +31,7 @@ function redirectLoadContent(url) {
 
 	setTimeout(() => {
 		if (next) {
-			document.body.innerHTML = next;
+			document.body.innerHTML = next; // TODO: replace the entire thing, instead of just the body.
 			document.body.style.opacity = 1; // TODO: css on document.body
 			redirectAddEventlisteners();
 		} else {
