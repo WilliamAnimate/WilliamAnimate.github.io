@@ -1,16 +1,27 @@
-if (window.location.hash.substring(1) != "force_disable_redirect") redirectAddEventlisteners();
+if (window.location.hash.substring(1) != "force_disable_redirect") {
+	try {
+		redirectAddEventlisteners();
+	} catch (e) {
+		console.error(`failed to register redirect (<a>) eventlisteners. maybe this page has none. ${e}`);
+		// so scripts keep executing. this error is non fatal.
+	}
+}
 
 /**
  * adds eventlisteners to the anchor element. when clicked, this will trigger the redirect animation.
  * however, if the first hash of the window is "force_disable_redirect" then it will not redirect.
  */
 function redirectAddEventlisteners() {
-	document.querySelector("a").addEventListener("click", function(e) {
-		e.preventDefault();
+	const anchorElements = document.querySelectorAll("a");
 
-		const href = this.getAttribute("href");
-		redirectLoadContent(href);
+	anchorElements.forEach(ae => {
+		ae.addEventListener("click", function(e) {
+			e.preventDefault();
+
+			redirectLoadContent(this.getAttribute("href"));
+		});
 	});
+
 }
 
 /**
