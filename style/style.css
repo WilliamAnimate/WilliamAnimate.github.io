@@ -21,7 +21,7 @@ body {
 	transform: translate(-50%); */
 
 	width: 50vw;
-	height: 500px;
+	min-height: 500px;
 	background-color: #1b1b1b;
 	text-align: center;
 	padding: 50px;
