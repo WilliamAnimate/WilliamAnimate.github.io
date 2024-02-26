@@ -22,8 +22,8 @@ function redirectAddEventlisteners() {
 				// FIXME: somehow change this to a switch? it isn't working for some reason.
 				if (ae.classList.contains("js-redirect-animate-id-links")) {
 					console.log("a");
-				} else if (ae.classList.contains("b")) {
-					console.log("should never get here");
+				} else if (ae.classList.contains("js-no-animation")) {
+					// TODO: implement
 				} else {
 					console.log("default");
 				}
