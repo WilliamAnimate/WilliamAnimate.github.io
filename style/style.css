@@ -4,7 +4,11 @@ body {
 	transition: opacity 0.2s ease;
 
 	font-family: lexend;
+	overflow-y: hidden;
 }
+
+a {color: #f5c2e7}
+a:hover {color: #ff00ff}
 
 #mainco {
 	display: flex;
