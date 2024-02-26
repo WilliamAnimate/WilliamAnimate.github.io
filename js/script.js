@@ -15,13 +15,30 @@ function redirectAddEventlisteners() {
 	const anchorElements = document.querySelectorAll("a");
 
 	anchorElements.forEach(ae => {
-		ae.addEventListener("click", function(e) {
-			e.preventDefault();
+		if (!ae.classList.contains("js-no-smooth-redirect")) {
+			ae.addEventListener("click", function(e) {
+				e.preventDefault();
 
-			redirectLoadContent(this.getAttribute("href"));
-		});
+				// FIXME: somehow change this to a switch? it isn't working for some reason.
+				if (ae.classList.contains("js-redirect-animate-id-links")) {
+					console.log("a");
+				} else if (ae.classList.contains("b")) {
+					console.log("should never get here");
+				} else {
+					console.log("default");
+				}
+				// switch (ae.classList.contains) {
+				// 	case "js-redirect-animate-id-links":
+				// 		console.log("a");
+				// 		break;
+				// 	default:
+				// 		console.log("default");
+				// 		break;
+				// }
+				redirectLoadContent(this.getAttribute("href"));
+			});
+		}
 	});
-
 }
 
 /**
