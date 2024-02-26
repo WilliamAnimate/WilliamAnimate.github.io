@@ -19,11 +19,6 @@ a:hover {color: #ff00ff}
 }
 
 #main {
-	/* position: fixed;
-	left: 50%;
-	top: 10%;
-	transform: translate(-50%); */
-
 	width: 50vw;
 	min-height: 500px;
 	background-color: #1b1b1b;
