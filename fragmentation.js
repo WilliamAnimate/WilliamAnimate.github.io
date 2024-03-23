@@ -2,9 +2,10 @@ function showFragment() {
     let fragmentation = window.location.hash.substring(1);
 
     if (fragmentation) {
-        console.log("y");
+        console.log(`y\n${fragmentation}`);
         try {
             document.getElementById(fragmentation).classList.add("showAtOnce");
+            console.log("done!");
         } catch (e) {
             console.warn(`link fragment seems to be invalid: ${e} (fragment: ${fragmentation})`);
         }
