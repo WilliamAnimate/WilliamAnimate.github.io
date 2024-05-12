@@ -1,8 +1,8 @@
 /* * {box-sizing: border-box} */
 
 body {
-    background-color: #11111b;
-    color: #fff;
+    background-color: #1e1e2e;
+    color: #cdd6f4;
 
     font-family: lexend;
 }
@@ -26,24 +26,21 @@ body {
 }
 
 .button {
-    margin: 10px 0;
-
     font-family: "lexend", sans-serif;
-    display: inline-block; /* this is needed idk why *?
-    border-color: var(--colorblind-mode-textcolor); /* 2 colors here for some reason but i can't bother to fix it right now lmfao */
     border-radius: 4em;
     padding: 10px 50px;
-    background-color: #f5c2e7;
-    /* FIXME: these two colors might not be the best. */
-    color: #fff;
+    background-color: #313244;
+    color: #cdd6f4;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, padding 0.3s ease;
 
     width: 80px;
 }
+
+.button:hover {background-color: #45475a}
 
 #links {
     display: flex;
@@ -53,7 +50,7 @@ body {
 #fake-linktree {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    gap: 10px;
 }
 
 a {
