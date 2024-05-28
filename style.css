@@ -57,13 +57,21 @@ a {
     color: #f5c2e7;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .div {
         flex-direction: column;
         gap: 30px;
-        min-width: 0px;
-        min-height: 0px;
+        min-width: calc(100vw - 69px);
+        min-height: calc(100vh - 69px);
         padding: 20px;
+    }
+    #fake-linktree {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #fake-linktree a {
+        flex-grow: 1;
+        padding: 20px 50px;
     }
 }
 
