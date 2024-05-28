@@ -24,6 +24,8 @@ body {
     overflow-y: scroll;
 
     padding: 69px;
+
+    transition: all 0.1s cubic-bezier(1, 0, 0, 1);
 }
 
 .button {
