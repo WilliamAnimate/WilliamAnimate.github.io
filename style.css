@@ -21,6 +21,7 @@ body {
     background-color: #181825;
     min-width: 420px;
     min-height: 69px;
+    overflow-y: scroll;
 
     padding: 69px;
 }
@@ -62,7 +63,7 @@ a {
         flex-direction: column;
         gap: 30px;
         min-width: calc(100vw - 69px);
-        min-height: calc(100vh - 69px);
+        height: calc(85vh);
         padding: 20px;
     }
     #fake-linktree {
