@@ -1,3 +1,3 @@
-# ignore the fact that there is no code
+# my website -- fourth iteration
 
-i commited to the wrong branch; for the code, go to [this commit](https://github.com/WilliamAnimate/WilliamAnimate.github.io/tree/e05b5d34311a8c47418afbc89a5a34409cdccb4c)
+this is the fourth time I've redesigned the home page and stuff, and hopefully it sticks now
