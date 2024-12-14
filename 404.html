@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Marooned!</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="center">
+            <div class="div">
+                <div>
+                    <h1>Marooned!</h1>
+                    <p>you hit a 404 page, probably because i removed about 99% of the other pages lma</p>
+                    <p id="rand" onclick="roll()" style="user-select: none">lmao enable js</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script defer>
+    let msgs = [
+        "how'd you get here?",
+        "dead link",
+        "before we continue, this webpage is sponsored by...",
+        "GabeN release half life three please",
+        "toby fox release the chapters, we're going insane",
+        "let me out of your basement",
+        "im in your walls",
+        "i use artix btw",
+        "systemd bad",
+        "arch bad",
+        "drm (digital restrictions management) bad",
+        "im not a wayland shill",
+        "meow",
+        "<a href='https://dontfuckwithscroll.com/'>https://dontfuckwithscroll.com</a>",
+        "can someone pleasr port lighthouse to firefox? im not installing brave or some shitty slow ass chromium browser",
+        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "someone pull me out of this",
+        "can someone make gnuless ar{tix|ch} linux",
+        "have you -Syu'd today?",
+        "have you -Syuu'd today?", // chaotic evil
+        undefined,
+    ];
+    function roll() {
+        document.getElementById("rand").innerHTML = (msgs[Math.floor(msgs.length * Math.random())]+" ↺")
+    }
+    roll();
+</script>
