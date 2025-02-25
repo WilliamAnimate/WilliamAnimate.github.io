@@ -2,21 +2,6 @@
 
 /* * {box-sizing: border-box} */
 
-@keyframes mygpuman {
-    0%   { transform: scale(1) rotate(0deg) };
-    50%  { transform: scale(50) rotate(180deg) };
-    100% { transform: scale(1) rotate(360deg) };
-}
-
-.lag {
-    background-color: #1e1e2e01;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-
-    animation: mygpuman 0.01s infinite linear;
-}
-
 body {
     background-color: #1e1e2e;
     color: #cdd6f4;

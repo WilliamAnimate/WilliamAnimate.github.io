@@ -145,19 +145,4 @@
         </noscript>
         <h1 class="center noJokescript">You must disable J*vascript to view this page.</h1>
     </body>
-
-    <script>
-        function dom() {
-            for (let i = 0; i < 32768; i++) {
-                let div = document.createElement("div");
-                div.className = "lag";
-                document.body.appendChild(div);
-            }
-            requestAnimationFrame(dom);
-        }
-
-        window.onload = function() {
-            setTimeout(dom, 0);
-        }
-    </script>
 </html>
